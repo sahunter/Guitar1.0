@@ -7,6 +7,10 @@ public interface InventoryDAO {
 	Guitar getInventory(Inventory inventory);
 	void updateInventory(Inventory inventory);
 	void deleteInventory(Inventory inventory);
+<<<<<<< HEAD
 	List<Guitar> getInventorys(Guitar guitar);
+=======
+	List<Inventory> getInventorys(Inventory inventory);
+>>>>>>> origin/master
 }
 

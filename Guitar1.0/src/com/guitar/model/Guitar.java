@@ -1,6 +1,7 @@
 package com.guitar.model;
 
 public class Guitar {
+<<<<<<< HEAD
 
  String  serialNumble;
   String builder;
@@ -9,10 +10,21 @@ public class Guitar {
     String backWood;
    String topWood;
   String price;
+=======
+   private  int Id;
+   private  String serialNumble;
+   private  String builder;
+   
+   private  String type;
+   private  String backWood;
+   private  String topWood;
+   private  String price;
+>>>>>>> origin/master
 
    public Guitar(){
 		
 	}
+<<<<<<< HEAD
 	//public int getId(){
 	//	return Id;
 	//}
@@ -20,6 +32,15 @@ public class Guitar {
 	//	this.Id=Id;
 	//}
 	public   String getSerialNumble(){
+=======
+	public int getId(){
+		return Id;
+	}
+	public void setId(int Id){
+		this.Id=Id;
+	}
+	public String getSerialNumble(){
+>>>>>>> origin/master
 		return serialNumble;
 	}
 	public void setSerialNumble(String serialNumble){
@@ -32,6 +53,7 @@ public class Guitar {
 	public void setBuilder(String builder){
 		this.builder=builder;
 	}
+<<<<<<< HEAD
 	
 	public String getModel(){
 		return model;
@@ -41,6 +63,8 @@ public class Guitar {
 	}
 	
 	
+=======
+>>>>>>> origin/master
 	public String getTopWood(){
 		return topWood;
 	}

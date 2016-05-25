@@ -7,9 +7,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+<<<<<<< HEAD
 import com.guitar.model.Guitar;
 import com.guitar.model.WebService;
 
+=======
+>>>>>>> origin/master
 /**
  * Servlet implementation class DeleteGuitar
  */
@@ -31,6 +34,7 @@ public class DeleteGuitar extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+<<<<<<< HEAD
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html;charset=UTF-8");
 		
@@ -52,6 +56,8 @@ public class DeleteGuitar extends HttpServlet {
 	 	      //request.getRequestDispatcher("guitar.jsp").forward(request, response);
         //request.getRequestDispatcher("").forward(request, response);
    response.sendRedirect("guitar2.jsp");
+=======
+>>>>>>> origin/master
 	}
 
 	/**

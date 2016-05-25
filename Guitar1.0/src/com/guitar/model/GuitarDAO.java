@@ -10,5 +10,8 @@ public interface GuitarDAO {
 	List<Guitar> getGuitars(Guitar guitar);
 	
 	
+<<<<<<< HEAD
 	
+=======
+>>>>>>> origin/master
 }

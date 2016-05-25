@@ -1,20 +1,26 @@
 package com.guitar.controller;
 
 import java.io.IOException;
+<<<<<<< HEAD
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.List;
 
+=======
+>>>>>>> origin/master
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+<<<<<<< HEAD
 import com.guitar.model.Guitar;
 import com.guitar.model.InventoryDAOImpl;
 import com.guitar.model.WebService;
 
+=======
+>>>>>>> origin/master
 /**
  * Servlet implementation class SearchGuitar
  */
@@ -35,6 +41,7 @@ public class SearchGuitar extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 	//	response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		request.setCharacterEncoding("UTF-8");
@@ -90,6 +97,11 @@ public class SearchGuitar extends HttpServlet {
 
 	
 
+=======
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+>>>>>>> origin/master
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */

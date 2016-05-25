@@ -1,16 +1,24 @@
 package com.guitar.model;
 
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+=======
+>>>>>>> origin/master
 import java.util.List;
 
 import javax.sql.DataSource;
 
+<<<<<<< HEAD
 import com.guitar.model.Guitar;
 import com.guitar.model.GuitarDAO;
+=======
+
+
+>>>>>>> origin/master
 public class InventoryDAOImpl implements InventoryDAO{
 
 	private DataSource datasource;
@@ -28,9 +36,12 @@ public class InventoryDAOImpl implements InventoryDAO{
 	public Guitar getInventory(Inventory inventory) {
 		// TODO Auto-generated method stub
 		return null;
+<<<<<<< HEAD
 		
 		
 		
+=======
+>>>>>>> origin/master
 	}
 
 	@Override
@@ -42,6 +53,7 @@ public class InventoryDAOImpl implements InventoryDAO{
 	@Override
 	public void deleteInventory(Inventory inventory) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 	
 	}
 
@@ -118,6 +130,15 @@ public class InventoryDAOImpl implements InventoryDAO{
 		}
 		}
 		return guitar1;
+=======
+		
+	}
+
+	@Override
+	public List<Inventory> getInventorys(Inventory inventory) {
+		// TODO Auto-generated method stub
+		return null;
+>>>>>>> origin/master
 	}
 
 }

@@ -1,14 +1,20 @@
 package com.guitar.model;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+>>>>>>> origin/master
 import java.util.List;
 
 import javax.sql.DataSource;
 
 import java.sql.Connection;
+<<<<<<< HEAD
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+=======
+>>>>>>> origin/master
 
 
 public class GuitarDAOImpl implements GuitarDAO {
@@ -16,7 +22,10 @@ public class GuitarDAOImpl implements GuitarDAO {
 	private DataSource datasource;
 	public GuitarDAOImpl(DataSource datasource){
 		this.datasource=datasource;
+<<<<<<< HEAD
 		
+=======
+>>>>>>> origin/master
 	}
 
 
@@ -28,6 +37,7 @@ public class GuitarDAOImpl implements GuitarDAO {
 
 	@Override
 	public Guitar getGuitar(Guitar guitar) {
+<<<<<<< HEAD
 
 		// TODO Auto-generated method stub
 		Connection conn=null;
@@ -74,6 +84,13 @@ public class GuitarDAOImpl implements GuitarDAO {
 	}
 		
 		
+=======
+		return guitar;
+		// TODO Auto-generated method stub
+		
+		
+		}
+>>>>>>> origin/master
 	@Override
 	public void updateGuitar(Guitar guitar) {
 		// TODO Auto-generated method stub
@@ -84,6 +101,7 @@ public class GuitarDAOImpl implements GuitarDAO {
 	public void deleteGuitar(Guitar guitar) {
 		// TODO Auto-generated method stub
 		
+<<<<<<< HEAD
 		
 		Connection conn=null;
 		PreparedStatement stmt=null;
@@ -129,11 +147,14 @@ public class GuitarDAOImpl implements GuitarDAO {
 		
 		
 		
+=======
+>>>>>>> origin/master
 	}
 
 	@Override
 	public List<Guitar> getGuitars(Guitar guitar) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		Connection conn=null;
 		//PreparedStatement stmt=null;
 		PreparedStatement stmt1=null;
@@ -197,8 +218,17 @@ public class GuitarDAOImpl implements GuitarDAO {
 			}
 			}
 		return guitars;
+=======
+		return null;
+	}
+
+>>>>>>> origin/master
 	
 	
 	
 	
+<<<<<<< HEAD
 	}}
+=======
+}
+>>>>>>> origin/master
