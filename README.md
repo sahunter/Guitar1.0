@@ -10,7 +10,7 @@
 
 ![image](https://github.com/sahunter/Guitar1.0/blob/master/img/p7.PNG)
 
-![image](https://github.com/sahunter/Guitar1.0/blob/master/img/P9.PNG)
+![image](https://github.com/sahunter/Guitar1.0/blob/master/img/p9.PNG)
 
 ![image](https://github.com/sahunter/Guitar1.0/blob/master/img/P10.PNG)
 
